@@ -24,6 +24,5 @@ connectToDatabase(ATLAS_URI)
         app.listen(5200, () => {
             console.log(`Server running at http://localhost:5200...`);
         });
-
     })
     .catch(error => console.error(error));
